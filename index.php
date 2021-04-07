@@ -45,7 +45,7 @@ class Point2D
     return [$this->x, $this->y];
   }
 
-  public function toString()
+  public function __toString()
   {
     return "($this->x,$this->y)";
   }
@@ -85,7 +85,7 @@ class Point3D extends Point2D
     return [$this->x, $this->y, $this->z];
   }
 
-  public function toString()
+  public function __toString()
   {
     return "($this->x,$this->y,$this->z)";
   }
